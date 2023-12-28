@@ -22,8 +22,8 @@ jobs:
       with:
         notion_token: ${{ secrets.NOTION_TOKEN }}
         notion_database_id: ${{ secrets.NOTION_DATABASE_ID }}
-        img_store_type: github
-        img_store_path_prefix: notionimg
+        img_store_type: ${{ secrets.IMG_STORE_TYPE }}
+        img_store_path_prefix: ${{ secrets.IMG_STORE_PATH_PREFIX }}
         # img_store_url_path_prefix: ${{ secrets.IMG_STORE_URL_PATH_PREFIX }}
         # Actions run as an user, but when they are running in a fork there are potential security problems, so they are degraded to "read-only"
         # ref: https://github.com/actions/first-interaction/issues/10#issuecomment-546628432
