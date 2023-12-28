@@ -15,7 +15,7 @@ jobs:
       with:
         # Workflows are only triggered when commits (and tags I think, but it would need to be tested) are created pushed using a Personal Access Token (PAT).
         # ref: https://github.com/EndBug/add-and-commit/issues/311#issuecomment-948749635
-        token: ${{ secrets.CHECKOUT_TOKEN }}
+        token: ${{ secrets.CHECKOUT_TOKEN || 'changeme' }}
 
     - name: Markdown From Notion
       uses: phuang07/notion_to_github_blog@master
@@ -29,8 +29,11 @@ jobs:
         # ref: https://github.com/actions/first-interaction/issues/10#issuecomment-546628432
         # ref: https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token
         # so you should set another token
-        img_store_github_token: ${{ secrets.CHECKOUT_TOKEN }}
-        img_store_github_repo: akkuman/pic
+        #
+        # Note: Since we don't store imgs in another repos, we don't really need to set
+        # the following.
+        img_store_github_token: ${{ secrets.CHECKOUT_TOKEN  || 'changeme' }}
+        img_store_github_repo: akkuman/pic # n
         img_store_github_branch: master
         # md_store_path_prefix: ${{ secrets.MD_STORE_PATH_PREFIX }}
 
