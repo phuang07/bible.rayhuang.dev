@@ -1,9 +1,9 @@
-baseURL: //hacktech.cn/
+baseURL: //bible.rayhuang.dev/
 languageCode: zh-cn
 defaultContentLanguage: zh
-title: Akkuman 的博客
+title: 讀經365
 theme: "PaperMod"
-paginate: 5
+paginate: 10
 
 enableRobotsTXT: true
 buildFuture: true
@@ -48,13 +48,13 @@ languages:
     en:
         languageName: "English"
         weight: 1
-        title: "Akkuman's Blog"
+        title: "Bible Reading 365"
         params:
-            Title: "Akkuman's Blog"
+            Title: "Bible Reading 365"
             Content: >
-                Welcome to Akkuman's Blog
+                Read the words of God!
 
-                - Record some random thoughts or essays about technology and life
+                - Put God's words in your heart 
         menu:
             main:
                 - name: Archive
@@ -86,11 +86,11 @@ params:
     ShowPostNavLinks: true
     comments: true
     homeInfoParams:
-        Title: "Akkuman 的博客"
+        Title: "Bible Reading 365"
         Content: >
-            欢迎来到 Akkuman 的博客
+            Read the words of God!
 
-            - 记录一些有关技术、生活的随想或随笔
+            - Put God's words in your heart 
         menu:
             main:
                 - name: 归档
@@ -110,15 +110,9 @@ params:
                   weight: 10
     socialIcons:
         - name: github
-          url: "https://github.com/akkuman"
-        - name: Cnblogs
-          url: "https://akkuman.cnblogs.com"
+          url: "https://github.com/bible.rayhuang.dev"
         - name: RsS
           url: "atom.xml"
-        - name: Twitter
-          url: "https://twitter.com/akkum4n"
-        - name: email
-          url: "mailto://akkumans@qq.com"
         - name: wechat
           url: "/images/wechat_contcat.jpg"
     fuseOpts:
