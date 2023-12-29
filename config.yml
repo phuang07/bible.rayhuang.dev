@@ -153,4 +153,8 @@ permalinks:
     # posts: /:year/:month/:day/:filename
     posts: /:filename
 
+
+services:
+  disqus:
+    shortname: bible-rayhuang-dev
 #uglyurls: true
