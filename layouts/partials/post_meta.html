@@ -15,5 +15,5 @@
 {{- end }}
 
 {{ range $scratch.Get "meta" }}
-    {{- . | safeHTML -}} {{ if not (eq . (($scratch.Get "meta") | last)) }} • {{ end }}
+    {{- . | safeHTML -}} {{ if not (eq . ($scratch.Get "meta") | last 0) }} • {{ end }}
 {{ end }}
