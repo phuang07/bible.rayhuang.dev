@@ -14,6 +14,6 @@
 {{- $scratch.Add "meta" (slice .) }}
 {{- end }}
 
-{{- with ($scratch.Get "meta") }}
-    {{- . | safeHTML -}}  •
-{{- end -}}
+{{ range $scratch.Get "meta" }}
+    {{- . | safeHTML -}} {{ if not (eq . $scratch.Get "meta" | last) }} • {{ end }}
+{{ end }}
