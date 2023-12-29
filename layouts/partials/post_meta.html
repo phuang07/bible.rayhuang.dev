@@ -14,9 +14,6 @@
 {{- $scratch.Add "meta" (slice .) }}
 {{- end }}
 
-<!-- {{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;·&nbsp;" -}} -->
-
 {{ range $.Scratch.Get "meta" }}
     {{ . }}<br />
 {{ end }}
