@@ -1,7 +1,7 @@
 ---
 categories:
 - 創世記
-date: '2023-12-28T20:38:00.000Z'
+date: 2023-12-28T20:38:00.000Z
 showToc: true
 tags:
 - 創世記
