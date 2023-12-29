@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>//bible.rayhuang.dev/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>//bible.rayhuang.dev/zh/sitemap.xml</loc>
-    
-      <lastmod>2023-12-28T20:38:00+00:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//bible.rayhuang.dev/categories/</loc>
+    <lastmod>2023-12-28T20:38:00+00:00</lastmod>
+  </url><url>
+    <loc>//bible.rayhuang.dev/day2/</loc>
+    <lastmod>2023-12-28T20:38:00+00:00</lastmod>
+  </url><url>
+    <loc>//bible.rayhuang.dev/posts/</loc>
+    <lastmod>2023-12-28T20:38:00+00:00</lastmod>
+  </url><url>
+    <loc>//bible.rayhuang.dev/tags/</loc>
+    <lastmod>2023-12-28T20:38:00+00:00</lastmod>
+  </url><url>
+    <loc>//bible.rayhuang.dev/tags/%E5%89%B5%E4%B8%96%E8%A8%98/</loc>
+    <lastmod>2023-12-28T20:38:00+00:00</lastmod>
+  </url><url>
+    <loc>//bible.rayhuang.dev/categories/%E5%89%B5%E4%B8%96%E8%A8%98/</loc>
+    <lastmod>2023-12-28T20:38:00+00:00</lastmod>
+  </url><url>
+    <loc>//bible.rayhuang.dev/</loc>
+    <lastmod>2023-12-28T20:38:00+00:00</lastmod>
+  </url><url>
+    <loc>//bible.rayhuang.dev/tags/%E8%A9%A9%E7%AF%87/</loc>
+    <lastmod>2023-12-28T20:38:00+00:00</lastmod>
+  </url><url>
+    <loc>//bible.rayhuang.dev/day1/</loc>
+    <lastmod>2023-12-27T21:06:00+00:00</lastmod>
+  </url><url>
+    <loc>//bible.rayhuang.dev/archives/</loc>
+  </url><url>
+    <loc>//bible.rayhuang.dev/links/</loc>
+  </url><url>
+    <loc>//bible.rayhuang.dev/search.en/</loc>
+  </url><url>
+    <loc>//bible.rayhuang.dev/series/</loc>
+  </url><url>
+    <loc>//bible.rayhuang.dev/search/</loc>
+  </url>
+</urlset>

@@ -45,16 +45,16 @@ languages:
                 - name: 链接
                   url: links/
                   weight: 10
-    en:
-        languageName: "English"
-        weight: 1
-        title: "Bible Reading 365"
-        params:
-            Title: "Bible Reading 365"
-            Content: >
-                Read the words of God!
+    # en:
+    #     languageName: "English"
+    #     weight: 1
+    #     title: "Bible Reading 365"
+    #     params:
+    #         Title: "Bible Reading 365"
+    #         Content: >
+    #             Read the words of God!
 
-                - Put God's words in your heart 
+    #             - Put God's words in your heart 
         menu:
             main:
                 - name: Archive
@@ -108,13 +108,13 @@ params:
                 - name: 链接
                   url: links/
                   weight: 10
-    socialIcons:
-        - name: github
-          url: "https://github.com/bible.rayhuang.dev"
-        - name: RsS
-          url: "atom.xml"
-        - name: wechat
-          url: "/images/wechat_contcat.jpg"
+    # socialIcons:
+    #     - name: github
+    #       url: "https://github.com/bible.rayhuang.dev"
+    #     - name: RsS
+    #       url: "atom.xml"
+    #     - name: wechat
+    #       url: "/images/wechat_contcat.jpg"
     fuseOpts:
         isCaseSensitive: false
         shouldSort: true
@@ -124,8 +124,8 @@ params:
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
     editPost:
-        URL: "mailto:trail1@gmail.com?subject=Suggesting changes for "
-        Text: "给我邮件" # edit text
+        URL: "https://forms.gle/NXRyV7A3Chk6rkdYA"
+        Text: "打卡" # edit text
         appendFilePath: true # to append file path to Edit link
     assets:
         favicon: "/images/avatar.webp"
