@@ -15,5 +15,5 @@
 {{- end }}
 
 {{ range $scratch.Get "meta" }}
-    {{ . }}<br />
+    {{- . | safeHTML -}}<br />
 {{ end }}
