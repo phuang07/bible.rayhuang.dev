@@ -76,7 +76,7 @@ languages:
 params:
     env: production
     defaultTheme: auto
-    ShowShareButtons: true
+    # ShowShareButtons: true
     ShowReadingTime: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
