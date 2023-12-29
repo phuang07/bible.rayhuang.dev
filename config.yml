@@ -123,10 +123,10 @@ params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
-    # editPost:
-    #     URL: "mailto://akkumans@qq.com?subject=Suggesting changes for "
-    #     Text: "给我邮件" # edit text
-    #     appendFilePath: true # to append file path to Edit link
+    editPost:
+        URL: "mailto://trail1@gmail.com?subject=Suggesting changes for "
+        Text: "给我邮件" # edit text
+        appendFilePath: true # to append file path to Edit link
     assets:
         favicon: "/images/avatar.webp"
         disableHLJS: true
