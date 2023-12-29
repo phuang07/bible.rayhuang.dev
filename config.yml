@@ -1,6 +1,6 @@
 baseURL: //bible.rayhuang.dev/
 languageCode: zh-cn
-defaultContentLanguage: zh
+# defaultContentLanguage: zh
 title: 讀經365
 theme: "PaperMod"
 paginate: 10
@@ -45,16 +45,16 @@ languages:
                 - name: 链接
                   url: links/
                   weight: 10
-    en:
-        languageName: "English"
-        weight: 1
-        title: "Bible Reading 365"
-        params:
-            Title: "Bible Reading 365"
-            Content: >
-                Read the words of God!
+    # en:
+    #     languageName: "English"
+    #     weight: 1
+    #     title: "Bible Reading 365"
+    #     params:
+    #         Title: "Bible Reading 365"
+    #         Content: >
+    #             Read the words of God!
 
-                - Put God's words in your heart 
+    #             - Put God's words in your heart 
         menu:
             main:
                 - name: Archive
@@ -108,13 +108,13 @@ params:
                 - name: 链接
                   url: links/
                   weight: 10
-    socialIcons:
-        - name: github
-          url: "https://github.com/bible.rayhuang.dev"
-        - name: RsS
-          url: "atom.xml"
-        - name: wechat
-          url: "/images/wechat_contcat.jpg"
+    # socialIcons:
+    #     - name: github
+    #       url: "https://github.com/bible.rayhuang.dev"
+    #     - name: RsS
+    #       url: "atom.xml"
+    #     - name: wechat
+    #       url: "/images/wechat_contcat.jpg"
     fuseOpts:
         isCaseSensitive: false
         shouldSort: true
