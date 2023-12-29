@@ -1,13 +1,13 @@
 ---
 categories:
 - 創世記
-date: 2023-12-27T21:06:00.000Z
+date: 2017-09-15 16:16:12
 showToc: true
 tags:
 - 創世記
 - 詩篇
 title: 'Day 1: 創世記1-3； 詩篇1'
-
+comments: true
 ---
 
 
