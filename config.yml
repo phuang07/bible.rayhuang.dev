@@ -85,6 +85,7 @@ params:
     TocOpen: false
     ShowPostNavLinks: true
     comments: true
+    disqusShortname: disqusShortname
     homeInfoParams:
         Title: "Bible Reading 365"
         Content: >
