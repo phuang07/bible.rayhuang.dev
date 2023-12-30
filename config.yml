@@ -126,7 +126,7 @@ params:
     editPost:
         URL: "https://forms.gle/NXRyV7A3Chk6rkdYA"
         Text: "打卡" # edit text
-        appendFilePath: true # to append file path to Edit link
+        appendFilePath: false # to append file path to Edit link
     assets:
         favicon: "/images/avatar.webp"
         disableHLJS: true
