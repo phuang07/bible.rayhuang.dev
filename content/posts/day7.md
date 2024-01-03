@@ -219,7 +219,7 @@ title: 'Day 7: 創世記22-24； 詩篇7'
 
 ------
 
-
+<Div Style="Position: Relative; Padding-Bottom: 56.25%; Height: 0; Overflow: Hidden;"><Iframe Src="Https://Youtu.Be/Gqi72Thyo5I?Si=V59Sm7F49-8Qmjcb" Style="Position: Absolute; Top: 0; Left: 0; Width: 100%; Height: 100%; Border:0;" Frameborder="0" Allowfullscreen></Iframe></Div>
 
 
 
