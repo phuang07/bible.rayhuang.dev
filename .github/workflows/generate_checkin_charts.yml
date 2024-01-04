@@ -21,7 +21,7 @@ jobs:
       uses: phuang07/checkin-chart@main
       with:
           IMG_DIR: 'content/images/checkin-chart/'
-          # CHECKIN_CHART_TOKEN: ${{ secrets.CHECKIN_CHART_TOKEN }}
+          CHECKIN_CHART_TOKEN: ${{ secrets.GOOGLE_SHEET_CRED }}
     - name: push to github
       uses: EndBug/add-and-commit@v7
       with:
