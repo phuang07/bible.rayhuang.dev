@@ -1,0 +1,29 @@
+name: Generate Checkin Charts
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  notion-to-blog:
+    # if: ${{ github.event.issue.user.login == github.actor && contains(github.event.issue.title, 'notion-ci') }}
+    if: ${{ contains(github.event.issue.title, 'notion-ci') }}
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        # Workflows are only triggered when commits (and tags I think, but it would need to be tested) are created pushed using a Personal Access Token (PAT).
+        # ref: https://github.com/EndBug/add-and-commit/issues/311#issuecomment-948749635
+        token: ${{ secrets.CHECKIN_CHART_TOKEN || 'changeme' }}
+
+    - name: Create chart from google sheet
+      uses: phuang07/checkin-chart@main
+      with:
+          IMG_DIR: 'content/images/checkin-chart/'
+
+    - name: push to github
+      uses: EndBug/add-and-commit@v7
+      with:
+        branch: hugo
+        message: 'Generate Checkin Charts'

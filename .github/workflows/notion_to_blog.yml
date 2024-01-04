@@ -32,9 +32,9 @@ jobs:
         #
         # Note: Since we don't store imgs in another repos, we don't really need to set
         # the following.
-        img_store_github_token: ${{ secrets.CHECKOUT_TOKEN  || 'changeme' }}
-        img_store_github_repo: akkuman/pic # n
-        img_store_github_branch: master
+        # img_store_github_token: ${{ secrets.CHECKOUT_TOKEN  || 'changeme' }}
+        # img_store_github_repo: akkuman/pic # n
+        # img_store_github_branch: master
         # md_store_path_prefix: ${{ secrets.MD_STORE_PATH_PREFIX }}
 
     - name: push to github
