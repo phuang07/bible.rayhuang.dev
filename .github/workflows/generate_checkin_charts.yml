@@ -5,9 +5,9 @@ on:
     types: [opened]
 
 jobs:
-  notion-to-blog:
+  create-checkin-chart:
     # if: ${{ github.event.issue.user.login == github.actor && contains(github.event.issue.title, 'notion-ci') }}
-    if: ${{ contains(github.event.issue.title, 'notion-ci') }}
+    if: ${{ contains(github.event.issue.title, 'checkin-chart-ci') }}
     runs-on: ubuntu-latest
 
     steps:
