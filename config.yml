@@ -91,9 +91,9 @@ params:
   homeInfoParams:
       Title: "Bible Reading 365"
       Content: >
-          Read the words of God!
+          聆聽神的教導！
 
-          - Put God's words in your heart.
+          - 「我兒，不要忘記我的教訓，要將我的命令存在你的心中。」- 箴言 3:1
       imageUrl: "/images/biblereading.png" # optional
       imageTitle: "Bible Reading" # optional
       imageWidth: 100% # custom size
