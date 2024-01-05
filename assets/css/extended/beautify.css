@@ -83,4 +83,15 @@ body {
 code, pre {
 	font-family: 'Source Code Pro', consolas, Menlo, "Linux Biolinum", 'Noto Serif SC', sans-serif, monospace!important;
 }
+.home-info {
+    margin-bottom: 12px;
+}
 
+.home-info .profile_inner h1 {
+    padding: 12px 0;
+}
+
+.home-info img {
+    display: inline-table;
+    border-radius: 8px;
+}

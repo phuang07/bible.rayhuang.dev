@@ -77,40 +77,44 @@ languages:
         #           weight: 10
 
 params:
-    env: production
-    defaultTheme: auto
-    # ShowShareButtons: true
-    ShowReadingTime: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: true
-    ShowToc: true
-    TocOpen: false
-    ShowPostNavLinks: true
-    comments: true
-    homeInfoParams:
-        Title: "Bible Reading 365"
-        Content: >
-            Read the words of God!
+  env: production
+  defaultTheme: auto
+  # ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  TocOpen: false
+  ShowPostNavLinks: true
+  comments: true
+  homeInfoParams:
+      Title: "Bible Reading 365"
+      Content: >
+          Read the words of God!
 
-            - Put God's words in your heart.
-        menu:
-            main:
-                - name: 归档
-                  url: archives/
-                  weight: 5
-                - name: 搜索
-                  url: search/
-                  weight: 10
-                - name: 标签
-                  url: tags/
-                  weight: 10
-                - name: 分类
-                  url: categories/
-                  weight: 10
-                - name: 链接
-                  url: links/
-                  weight: 10
+          - Put God's words in your heart.
+      imageUrl: "/images/biblereading.png" # optional
+      imageTitle: "Bible Reading" # optional
+      imageWidth: 100% # custom size
+      imageHeight: auto # custom size
+      menu:
+          main:
+              - name: 归档
+                url: archives/
+                weight: 5
+              - name: 搜索
+                url: search/
+                weight: 10
+              - name: 标签
+                url: tags/
+                weight: 10
+              - name: 分类
+                url: categories/
+                weight: 10
+              - name: 链接
+                url: links/
+                weight: 10
     # socialIcons:
     #     - name: github
     #       url: "https://github.com/bible.rayhuang.dev"
@@ -118,22 +122,30 @@ params:
     #       url: "atom.xml"
     #     - name: wechat
     #       url: "/images/wechat_contcat.jpg"
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
-    # editPost:
-    #     URL: "https://forms.gle/NXRyV7A3Chk6rkdYA"
-    #     Text: "打卡" # edit text
-    #     appendFilePath: false # to append file path to Edit link
-    assets:
-        favicon: "/images/avatar.webp"
-        disableHLJS: true
+  fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
+  # editPost:
+  #     URL: "https://forms.gle/NXRyV7A3Chk6rkdYA"
+  #     Text: "打卡" # edit text
+  #     appendFilePath: false # to append file path to Edit link
+  assets:
+      favicon: "/images/bible-book.png"
+      disableHLJS: true
 
+  profileMode:
+    enabled: false
+    title: "讀經365" # optional default will be site title
+    subtitle: "起初...阿們!"
+    imageUrl: "/images/bible-book.png" # optional
+    imageTitle: "Bible Reading" # optional
+    imageWidth: 360 # custom size
+    imageHeight: 360 # custom size
 
 taxonomies:
     category: categories
@@ -156,6 +168,11 @@ permalinks:
     # posts: /:year/:month/:day/:filename
     posts: /:filename
 
+
+cover:
+    # cover image
+    image: "/images/bible-book.png"
+    # cover image author
 
 services:
   disqus:
