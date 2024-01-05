@@ -2,7 +2,7 @@ name: Generate Checkin Charts
 
 on:
   schedule:
-    - cron: '* * * * *'  # Run the workflow every minute
+    - cron: '0 0 * * *'  # Run the workflow every day at midnight (12:00 AM)
 
   workflow_dispatch:   # Add this section to enable manual triggering
     inputs:
