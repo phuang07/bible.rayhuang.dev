@@ -1,8 +1,8 @@
 name: Generate Checkin Charts
 
 on:
-  issues:
-    types: [opened]
+  schedule:
+    - cron: '* * * * *'  # Run the workflow every minute
 
 jobs:
   create-checkin-chart:
@@ -20,7 +20,7 @@ jobs:
     - name: Create chart from google sheet
       uses: phuang07/checkin-chart@main
       with:
-          IMG_DIR: 'content/images/checkin-chart/'
+          IMG_DIR: 'statics/images/checkin_charts/'
           GOOGLE_SHEET_CRED: ${{ secrets.GOOGLE_SHEET_CRED }}
     - name: push to github
       uses: EndBug/add-and-commit@v7
