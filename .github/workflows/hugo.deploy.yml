@@ -53,3 +53,47 @@ jobs:
         github_token: ${{ secrets.DEPLOY_PAGES_TOKEN }}
         publish_dir: ./.deploy_git
         publish_branch: main
+
+    - name: Slack Notification
+      # See: https://github.com/rtCamp/action-slack-notify
+      if: ${{ github.ref == 'refs/heads/hugo' }}
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_USERNAME: ${{ secrets.SLACK_USERNAME }}
+        SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
+        SLACK_TITLE: Deploy bible.rayhuang.dev        
+      with:
+        args: |
+          -m "Build bible.rayhuang.dev success"
+          -c ${{ secrets.SLACK_CHANNEL }}
+          -u ${{ secrets.SLACK_USERNAME }}
+          -i ${{ secrets.SLACK_ICON }}
+          -w ${{ secrets.SLACK_WEBHOOK }}
+          -t success
+          -f ${{ secrets.SLACK_FOOTER }}
+          -l ${{ secrets.SLACK_LOGO }}
+          -n ${{ secrets.SLACK_FOOTER }}
+          -r ${{ secrets.SLACK_REPOSITORY }}
+          -b ${{ secrets.SLACK_BRANCH }}
+          -a ${{ secrets.SLACK_ACTION }}
+          -e ${{ secrets.SLACK_EVENT }}
+          -s ${{ secrets.SLACK_SHA }}
+          -d ${{ secrets.SLACK_DEPLOYMENT }}
+          -x ${{ secrets.SLACK_DEPLOYMENT_STATUS }}
+          -p ${{ secrets.SLACK_DEPLOYMENT_PAYLOAD }}
+          -o ${{ secrets.SLACK_DEPLOYMENT_ENVIRONMENT }}
+          -g ${{ secrets.SLACK_DEPLOYMENT_DESCRIPTION }}
+          -y ${{ secrets.SLACK_DEPLOYMENT_URL }}
+          -z ${{ secrets.SLACK_DEPLOYMENT_ID }}
+          -q ${{ secrets.SLACK_DEPLOYMENT_TASK }}
+          -j ${{ secrets.SLACK_DEPLOYMENT_PERFORMER }}
+          -k ${{ secrets.SLACK_DEPLOYMENT_CREATOR }}
+          -l ${{ secrets.SLACK_DEPLOYMENT_CREATED_AT }}
+          -m ${{ secrets.SLACK_DEPLOYMENT_UPDATED_AT }}
+          -n ${{ secrets.SLACK_DEPLOYMENT_ENVIRONMENT_URL }}
+          -o ${{ secrets.SLACK_DEPLOYMENT_REPOSITORY_URL }}
+          -p ${{ secrets.SLACK_DEPLOYMENT_DESCRIPTION }}
+          -q ${{ secrets.SLACK_DEPLOYMENT_TRANSIENT_ENVIRONMENT }}
+          -r ${{ secrets.SLACK_DEPLOYMENT
