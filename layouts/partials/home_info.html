@@ -1,3 +1,18 @@
+<style>
+.home-info {
+    margin-bottom: 12px;
+}
+
+.home-info .profile_inner h1 {
+    padding: 12px 0;
+}
+
+.home-info img {
+    display: inline-table;
+    border-radius: 8px;
+}
+</style>
+
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <header class="entry-header">
@@ -16,7 +31,4 @@
         {{ partial "social_icons.html" site.Params.socialIcons }}
     </footer>
 </article>
-
-
-
 {{- end -}}
