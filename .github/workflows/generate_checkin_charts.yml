@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '* * * * *'  # Run the workflow every minute
 
+  workflow_dispatch:   # Add this section to enable manual triggering
+    inputs:
+      manual_trigger:
+        description: 'Manually trigger the workflow'
+        required: false
+
 jobs:
   create-checkin-chart:
     # if: ${{ github.event.issue.user.login == github.actor && contains(github.event.issue.title, 'notion-ci') }}
