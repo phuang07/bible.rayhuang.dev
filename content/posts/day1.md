@@ -6,6 +6,7 @@ showToc: true
 tags:
 - 創世記
 - 詩篇
+- Creation & Fall
 title: 'Day 1: 創世記1-3； 詩篇1'
 
 ---
