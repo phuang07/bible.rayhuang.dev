@@ -6,6 +6,7 @@ showToc: true
 tags:
 - 創世記
 - 詩篇
+- Abrahamic Covenant
 title: 'Day 5: 創世記16-18； 詩篇5'
 
 ---

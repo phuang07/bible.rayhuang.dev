@@ -1,11 +1,12 @@
 ---
 categories:
 - 創世記
-date: '2024-01-01T03:16:00.000Z'
+date: '2024-01-01T03:15:00.000Z'
 showToc: true
 tags:
 - 創世記
 - 詩篇
+- Abrahamic Covenant
 title: 'Day 7: 創世記22-24； 詩篇7'
 
 ---
@@ -219,7 +220,7 @@ title: 'Day 7: 創世記22-24； 詩篇7'
 
 ------
 
-<Div Style="Position: Relative; Padding-Bottom: 56.25%; Height: 0; Overflow: Hidden;"><Iframe Src="Https://Www.Youtube.Com/Watch?V=Gqi72Thyo5I" Style="Position: Absolute; Top: 0; Left: 0; Width: 100%; Height: 100%; Border:0;" Frameborder="0" Allowfullscreen></Iframe></Div>
+
 
 
 
