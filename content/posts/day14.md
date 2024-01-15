@@ -1,7 +1,7 @@
 ---
 categories:
 - 創世記
-date: '2024-01-06T15:26:00.000Z'
+date: '2024-01-06T15:26:06.000Z'
 showToc: true
 tags:
 - 創世記
