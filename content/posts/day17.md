@@ -1,7 +1,7 @@
 ---
 categories:
 - 出埃及記
-date: '2024-01-15T23:05:00.000Z'
+date: '2024-01-17T23:05:00.000Z'
 showToc: true
 tags:
 - 詩篇
