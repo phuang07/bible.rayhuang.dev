@@ -5,8 +5,8 @@ date: '2024-01-15T23:16:00.000Z'
 showToc: true
 tags:
 - 詩篇
-- The Exodus From Egypt
 - 出埃及記
+- The Covenant at Mount Sinai
 title: 'Day 25: 出埃及記25-27； 詩篇25'
 
 ---
