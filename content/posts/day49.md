@@ -1,7 +1,7 @@
 ---
 categories:
 - 民數記
-date: '2024-02-06T23:20:00.000Z'
+date: '2024-02-09T01:22:00.000Z'
 showToc: true
 tags:
 - 詩篇
